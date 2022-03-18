@@ -88,33 +88,32 @@ body, input, button {
   justify-content: space-between;
 }
  
-  .right ul li{
-  padding-right: 10px;
-  display: inline-block;
-  }
+
   
-  .right ul li a{
+  .right a{
     color:#70757a;
     text-decoration: none;
+    padding-right: 10px;
+    display: inline-block;
+    margin:10px;
   }
   
-  .right ul li a:hover{
+  .right a:hover{
     
     text-decoration:underline;
     cursor: pointer;
   }  
   
-  .left ul li{
-  padding-left: 10px;
-  display: inline-block;
-  }
   
-  .left ul li a{
+  .left a{
     color:#70757a;
     text-decoration: none;
+    padding-left: 10px;
+    display: inline-block;
+    margin:10px;
   }
   
-  .left ul li a:hover{
+  .left a:hover{
     text-decoration:underline;
     cursor: pointer;
   }
