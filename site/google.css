@@ -17,7 +17,7 @@ body, input, button {
     color: #202124;
 }
 
-.google_image {
+.google-image {
 
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ body, input, button {
 
 }
 
-.button_wrapper{
+.button-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
