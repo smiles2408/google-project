@@ -15,7 +15,7 @@ body, input, button {
     color: #202124;
 }
 
-.logo {
+.google_image {
 
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ body, input, button {
     margin-top: 150px;
     margin-bottom: 10px;
 }
-.google_image {
+.image {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
@@ -48,13 +48,14 @@ body, input, button {
 
 }
 
-.button_search{
+.button_wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.button_wrapper{
+.button{
+
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
