@@ -4,9 +4,11 @@
     margin-top: 30px;;
 }
 .main_body{
-    display: flex;
-    justify-content: center;
+    display: flex;   
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+  
 }
 
 body, input, button {
@@ -15,7 +17,7 @@ body, input, button {
     color: #202124;
 }
 
-.google_image {
+.main_content {
 
     display: flex;
     flex-direction: column;
@@ -25,12 +27,13 @@ body, input, button {
     margin-top: 150px;
     margin-bottom: 10px;
 }
-.image {
+.google_image {
+  
     max-height: 100%;
     max-width: 100%;
-    object-fit: contain;
-    object-position: center bottom;
+    object-fit:contain; 
     width: auto;
+    text-align: center;
 }
 
 .input_text{
