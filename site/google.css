@@ -17,7 +17,7 @@ body, input, button {
     color: #202124;
 }
 
-.main_content {
+.google_image {
 
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ body, input, button {
     margin-top: 150px;
     margin-bottom: 10px;
 }
-.google_image {
+.image {
   
     max-height: 100%;
     max-width: 100%;
