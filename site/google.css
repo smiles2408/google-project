@@ -25,7 +25,7 @@ body, input, button {
     margin-top: 150px;
     margin-bottom: 10px;
 }
-.logo_image {
+.google_image {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
@@ -48,13 +48,13 @@ body, input, button {
 
 }
 
-.main_buttons{
+.button_search{
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.input_button{
+.button_wrapper{
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -88,33 +88,33 @@ body, input, button {
   justify-content: space-between;
 }
  
-  .footer_menu_right ul li{
+  .right ul li{
   padding-right: 10px;
   display: inline-block;
   }
   
-  .footer_menu_right ul li a{
+  .right ul li a{
     color:#70757a;
     text-decoration: none;
   }
   
-  .footer_menu_right ul li a:hover{
+  .right ul li a:hover{
     
     text-decoration:underline;
     cursor: pointer;
   }  
   
-  .footer_menu_left ul li{
+  .left ul li{
   padding-left: 10px;
   display: inline-block;
   }
   
-  .footer_menu_left ul li a{
+  .left ul li a{
     color:#70757a;
     text-decoration: none;
   }
   
-  .footer_menu_left ul li a:hover{
+  .left ul li a:hover{
     text-decoration:underline;
     cursor: pointer;
   }
